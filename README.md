@@ -13,32 +13,32 @@ This comes with some very positiv side effects:
 This is a sample the json-config-file ...
 
 
-![json-config](json.png)
+![json-config](readme/json.png)
 
 
 ... for the specified json-schema ...
 
 
-![json-schema-file](schema.png)
+![json-schema-file](readme/schema.png)
 
 
 With intellisense ...
 
 
-![json-schema-file](intellisense.png)
+![json-schema-file](readme/intellisense.png)
 
 
 ... and validation ...
 ... for missing properties ...
 
 
-![json-schema-file](validation1.png)
+![json-schema-file](readme/validation1.png)
 
 
-![json-schema-file](validation2.png)
+![json-schema-file](readme/validation2.png)
 
 
 ... for invalid types ...
 
 
-![Validation of type](validation3.png)
+![Validation of type](readme/validation3.png)
