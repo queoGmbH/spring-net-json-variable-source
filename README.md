@@ -1,0 +1,1 @@
+# spring-net-json-variable-source
