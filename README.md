@@ -11,19 +11,27 @@ This comes with some very positiv side effects:
 
 
 This is a sample the json-config-file ...
+
+
 ![json-config](json.png)
 
 
 ... for the specified json-schema ...
+
+
 ![json-schema-file](schema.png)
 
 
 With intellisense ...
+
+
 ![json-schema-file](intellisense.png)
 
 
 ... and validation ...
 ... for missing properties ...
+
+
 ![json-schema-file](validation1.png)
 
 
@@ -31,4 +39,6 @@ With intellisense ...
 
 
 ... for invalid types ...
+
+
 ![Validation of type](validation3.png)
