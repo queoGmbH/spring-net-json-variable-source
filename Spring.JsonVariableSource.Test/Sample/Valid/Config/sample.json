@@ -1,0 +1,8 @@
+﻿{
+  "$schema": "..\\..\\sample.schema.json",
+  "applicationName": "Sample Application",
+  "credentials": {
+    "login": "username",
+    "password": "top-secret123!"
+  }
+}

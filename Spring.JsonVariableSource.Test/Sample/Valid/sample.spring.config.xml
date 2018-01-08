@@ -1,0 +1,24 @@
+﻿<objects xmlns="http://www.springframework.net"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xmlns:db="http://www.springframework.net/database"
+         xmlns:tx="http://www.springframework.net/tx"
+         xsi:schemaLocation="http://www.springframework.net 
+             http://www.springframework.net/xsd/spring-objects.xsd
+             http://www.springframework.net/database http://www.springframework.net/schema/db/spring-database.xsd
+             http://www.springframework.net/schema/tx http://www.springframework.net/schema/tx/spring-tx-1.1.xsd">
+  <object name="appConfigPropertyHolder"
+          type="Spring.Objects.Factory.Config.VariablePlaceholderConfigurer, Spring.Core">
+    <property name="VariableSources">
+      <list>
+        <object type="Spring.Objects.Factory.Config.JsonVariableSource, Spring.JsonVariableSource">
+          <constructor-arg name="location" value="~\Sample\Valid\Config\sample.json" />
+        </object>
+      </list>
+    </property>
+  </object>
+  <object name="sampleSpringBean" type="Spring.JsonVariableSource.Test.Sample.SampleSpringBean" singleton="true">
+    <property name="ApplicationName" value="${applicationName}" />
+    <property name="Login" value="${credentials.login}" />
+    <property name="Password" value="${credentials.password}" />
+  </object>
+</objects>

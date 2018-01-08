@@ -94,7 +94,7 @@ namespace Spring.Objects.Factory.Config {
 
             JSchema schema = JSchema.Parse(schemaObject.ToString());
             if (!variables.IsValid(schema)) {
-                throw new Exception(string.Format(Resources.Exception_Invalid_Json, schemaLocation.File.FullName));
+                throw new FormatException(string.Format(Resources.Exception_Invalid_Json, schemaLocation.File.FullName));
             }
         }
     }
