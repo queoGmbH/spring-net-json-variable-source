@@ -1,5 +1,5 @@
 ﻿{
-  "$schema": "..\\..\\sample.schema.json",
+  "$schema": "sample.schema.json",
   "credentials": {
     "login": "username",
     "password": "top-secret123!"

@@ -1,0 +1,39 @@
+﻿{
+  "$schema": "http://json-schema.org/draft-04/schema",
+  "title": "specifies the schema for sample.json",
+
+  "type": "object",
+  "required": [
+    "applicationName",
+    "credentials"
+  ],
+  "properties": {
+
+    "applicationName": {
+      "type": "string",
+      "description": "The name of the sample application."
+    },
+    "sampleInteger": {
+      "type": "integer",
+      "description": "Any integer value ..."
+    },
+    "credentials": {
+      "type": "object",
+      "description": "Some credentials to login anywhere in the sample application",
+      "required": [
+        "login",
+        "password"
+      ],
+      "properties": {
+        "login": {
+          "type": "string",
+          "description": "The login name of the credentials"
+        },
+        "password": {
+          "type": "string",
+          "description": "The password of the credentials"
+        }
+      }
+    }
+  }
+}

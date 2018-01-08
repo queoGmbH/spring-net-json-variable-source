@@ -85,7 +85,8 @@
     <Content Include="Sample\Invalid\Config\sample.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Sample\sample.schema.json" />
+    <None Include="Sample\Invalid\Config\sample.schema.json" />
+    <None Include="Sample\Valid\Config\sample.schema.json" />
     <Content Include="Sample\Valid\Config\sample.json">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
@@ -118,7 +119,7 @@
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <ProjectExtensions>
     <VisualStudio>
-      <UserProperties Sample_4Invalid_4Config_4sample_1json__JSONSchema="..\\sample.schema.json" Sample_4Valid_4Config_4sample_1json__JSONSchema="..\\sample.schema.json" />
+      <UserProperties Sample_4Invalid_4Config_4sample_1json__JSONSchema="..\\sample.schema.json" />
     </VisualStudio>
   </ProjectExtensions>
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
