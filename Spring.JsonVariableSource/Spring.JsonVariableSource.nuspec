@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata>
+    <!-- This will use the AssemblyName -->
+    <id>Spring.JsonVariableSource</id>
+    <!-- This will use the AssemblyVersion -->
+    <version>$version$</version>
+    <title>spring-net-json-variable-source</title>
+    <description>An implementation of IVariableSource of Spring.Core where you can declare your variables/placeholders in a validatable json-file.</description>
+    <summary>A json-variable-source for spring.net</summary>
+    <authors>queo, Tobias Jäkel</authors>
+    <owners>queo, Tobias Jäkel</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <projectUrl>http://www.queo.com/</projectUrl>
+    <tags>spring.net, json, properties, variable, variables, placeholder, placeholders, config, configuration</tags>
+    <language>en-EN</language>
+  </metadata>
+</package>
