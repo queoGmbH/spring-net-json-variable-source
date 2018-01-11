@@ -43,10 +43,10 @@ namespace Spring.JsonVariableSource.Test.Objects.Factory.Config {
             IResource json = new FileSystemResource("..\\..\\Sample\\Valid\\Config\\sample.json");
 
             /* When: child variable should be resolved */
-            string applicationName = new Spring.Objects.Factory.Config.JsonVariableSource(json).ResolveVariable("credentials.login");
+            string login = new Spring.Objects.Factory.Config.JsonVariableSource(json).ResolveVariable("credentials.login");
 
             /* Then: login-name of credentials should be resolved correctly */
-            applicationName.Should().Be("username");
+            login.Should().Be("username");
         }
 
         [TestMethod]

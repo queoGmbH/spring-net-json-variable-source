@@ -51,8 +51,6 @@ namespace Spring.Objects.Factory.Config {
         public bool CanResolveVariable(string name) {
             JToken selectToken = _variables.SelectToken(name);
             return selectToken != null;
-
-            // return CanResolveVariable(_variables, name);
         }
 
         /// <summary>
