@@ -16,20 +16,26 @@ This is a sample the json-config-file ...
 ![json-config](readme/json.png)
 
 
-... for the specified json-schema ...
+... for a spring-configuration with placeholders ...
+
+
+![spring-config](readme/springconfig.png)
+
+
+... validated against a specified json-schema ...
 
 
 ![json-schema-file](readme/schema.png)
 
 
-With intellisense ...
+... with intellisense ...
 
 
 ![json-schema-file](readme/intellisense.png)
 
 
-... and validation ...
-... for missing properties ...
+... and validation for ...
+... missing properties ...
 
 
 ![json-schema-file](readme/validation1.png)
@@ -42,3 +48,6 @@ With intellisense ...
 
 
 ![Validation of type](readme/validation3.png)
+
+
+... and maybe more!
